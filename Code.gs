@@ -48,35 +48,12 @@ function onOpen() {
 function master_insertWeeks()                {Announcements.master_insertWeeks()}
 function master_insertMonth()                {Announcements.master_insertMonth()}
 
-function setup()                             {Announcements.setup()}
-function masterToArchive()                   {Announcements.masterToArchive()}
+// function setup()                             {Announcements.setup()}
+// function masterToArchive()                   {Announcements.masterToArchive()}
 
 function format_master()                     {Announcements.format_master()}
 
-function setupAutomation_master()            {Announcements.setupAutomation_master()}
+// function setupAutomation_master()            {Announcements.setupAutomation_master()}
 
 function showInstructions_Document()         {Announcements.showInstructions_Document()}
 function showInstructions_RecurringContent() {Announcements.showInstructions_RecurringContent()}
-
-//var documentConfig = {
-//  //no doc-specific config options at this time  
-//};
-//
-/////// NO CHANGES BEYOND THIS POINT /////
-/////// NO CHANGES BEYOND THIS POINT /////
-/////// NO CHANGES BEYOND THIS POINT /////
-//
-////push config options to library
-//PL.updateConfig({announcements:documentConfig});
-//
-////local functions passed to library functions
-//function runMeToGrantPermissions(){}
-//function onOpen()                   {PL.onOpen()}
-//function insertWeeks()              {PL.announcements_master_insertWeeks()}
-//function masterToArchive()          {PL.announcements_masterToArchive()}
-//
-//function dumpConfig()               {PL.dumpConfig()}
-//
-////to get rid of old triggers
-//function removeSpaces()             {PL.deleteTriggerByHandlerName('removeSpaces')}
-//function formatPages_PastSundays()  {PL.deleteTriggerByHandlerName('formatPages_PastSundays')}
